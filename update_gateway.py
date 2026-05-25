@@ -59,12 +59,12 @@ session.headers.update(headers)
 locklists: List[Dict[str, str]] = [
     {
         "name": "d3Host List by d3ward",
-        "url": "https://raw.githubusercontent.com/jingchengdev/Cloudflare-Gateway-Adblock-Updater/refs/heads/main/blocklists/d3ward.txt",
+        "url": "https://raw.githubusercontent.com/jingchengdev/Cloudflare-Gateway-Adblock-Updater/main/blocklists/d3ward.txt",
         "priority": 10000
     },
     {
         "name": "OBFUSGATED List",
-        "url": "https://raw.githubusercontent.com/jingchengdev/Cloudflare-Gateway-Adblock-Updater/refs/heads/main/blocklists/obfusgated.txt",
+        "url": "https://raw.githubusercontent.com/jingchengdev/Cloudflare-Gateway-Adblock-Updater/main/blocklists/obfusgated.txt",
         "priority": 10001
     },
     {
