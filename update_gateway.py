@@ -56,7 +56,7 @@ session.headers.update(headers)
 # Priority order (lower number = higher priority):
 # 1-9999: Reserved for custom policies (Allow Rules, Content Blocking, etc.)
 # 10000+: Hagezi filters (ordered by importance)
-locklists: List[Dict[str, str]] = [
+blocklists: List[Dict[str, str]] = [
     {
         "name": "d3Host List by d3ward",
         "url": "https://raw.githubusercontent.com/jingchengdev/Cloudflare-Gateway-Adblock-Updater/main/blocklists/d3ward.txt",
