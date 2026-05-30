@@ -58,14 +58,34 @@ session.headers.update(headers)
 # 10000+: Hagezi filters (ordered by importance)
 blocklists: List[Dict[str, str]] = [
     {
+        "name": "LowTechHost",
+        "url": "https://filter.futa.gg/hosts_domains.txt",
+        "priority": 10000
+    },
+    {
+        "name": "TW165",
+        "url": "https://filter.futa.gg/TW165_domains.txt",
+        "priority": 10001
+    },
+    {
+        "name": "TWNIC-RPZ",
+        "url": "https://filter.futa.gg/TWNIC-RPZ_domains.txt",
+        "priority": 10002
+    },
+    {
+        "name": "nofarm_domains",
+        "url": "https://filter.futa.gg/nofarm_domains.txt",
+        "priority": 10003
+    },
+    {
         "name": "Hagezi Pro++",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/pro.plus.mini-onlydomains.txt",
-        "priority": 10000
+        "priority": 10004
     },
     {
         "name": "Hagezi TIF Mini",
         "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/tif.mini-onlydomains.txt",
-        "priority": 10001
+        "priority": 10005
     }
 ]
 
