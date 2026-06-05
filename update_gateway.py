@@ -61,6 +61,11 @@ blocklists: List[Dict[str, str]] = [
         "name": "oisd small",
         "url": "https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild2_small.txt",
         "priority": 10000
+    },
+    {
+        "name": "oisd nsfw_small",
+        "url": "https://raw.githubusercontent.com/sjhgvr/oisd/refs/heads/main/domainswild2_nsfw_small.txt",
+        "priority": 10001
     }
 ]
 
